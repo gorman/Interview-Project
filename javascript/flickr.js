@@ -18,7 +18,18 @@ $(document).ready(function () {
 			});
 			photoHTML += '</ul>';
 			$('#photos').html(photoHTML);
+			
+			var $container = $('#photos').isotope({
+  					itemSelector: '.awesomePhoto',
+  					layoutMode: 'fitRows' 
+				});
+
+				$container.imagesLoaded ( function() {
+  				$container.isotope('fitRows');
+				});
+  			
 		};
 		$.getJSON(flickrAPI, flickrOptions, displayPhotos);
-	});	// end submit
+			
+	});
 });

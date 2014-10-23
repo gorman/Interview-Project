@@ -13,8 +13,8 @@ h2 {
 
 form {
         width:800px;
-        height:200px;
-        margin: 50px auto;
+        height:120px;
+        margin: 50px auto 25px auto;
 }
 
 .search {
@@ -34,6 +34,38 @@ form {
         font-size: 25px;
         border-radius: 10px 10px;
         display: inline-block;
-
 }
+
+.button {
+        display: block;
+        margin-left: 352px;
+        height: 28px;
+        width: 96px;
+        text-align: center;
+        border:2px solid #207cca;
+        background-color:#207cca;
+        color:#fafafa;
+        border-radius: 5px 5px;
+        }
+
+.button:hover {
+        background-color:#fafafa;
+        color:#207cca;
+
+#photos {
+        max-width: 90%;
+        margin: 0 auto;
+}
+
+.awesomePhoto {
+        list-style-type: none;
+        height: 100px;
+        width: 100px;
+        list-style-type: none;
+}
+
+ul {
+        list-style-type: none;
+}
+
 
