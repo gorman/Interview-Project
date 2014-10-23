@@ -4,8 +4,8 @@ $(document).ready(function () {
 		var flickrAPI = "https://api.flickr.com/services/feeds/photos_public.gne?jsoncallback=?";
 		var searchWord = document.getElementById("query").value
 		var Options = {
-			tags: searchWord
-			format: "json"
+			tags: searchWord,
+			format: "json",
 		};
 		function displayPhotos(data) {
 			var photoHTML = '<ul>';
