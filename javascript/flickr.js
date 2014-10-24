@@ -19,14 +19,14 @@ $(document).ready(function () {
 			photoHTML += '</ul>';
 			$('#photos').html(photoHTML);
 			
-			var $container = $('#photos').isotope({
+			var container = $('#photos').isotope({
   					itemSelector: '.awesomePhoto',
   					layoutMode: 'fitRows' 
 				});
 
-				$container.imagesLoaded ( function() {
+				container.imagesLoaded ( function() {
 				$("#photos").isotope("reloadItems");
-  				$container.isotope({
+  				container.isotope({
   					layoutMode:'fitRows', 
   					itemSelector: '.awesomePhoto'});
 				});
