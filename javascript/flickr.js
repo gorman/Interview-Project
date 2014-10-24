@@ -22,14 +22,16 @@ $(document).ready(function () {
 			var $container = $('#photos').isotope({
   					itemSelector: '.awesomePhoto',
   					layoutMode: 'fitRows' 
-				}).fadein(slow);
+				});
 
 				$container.imagesLoaded ( function() {
-  				$container.isotope('fitRows');
+				$("#photos").isotope("reloadItems");
+  				$container.isotope({
+  					layoutMode:'fitRows', 
+  					itemSelector: '.awesomePhoto'});
 				});
   			
 		};
 		$.getJSON(flickrAPI, flickrOptions, displayPhotos);
-			
 	});
 });
