@@ -10,7 +10,7 @@ $(document).ready(function () {
 		};
 		function displayPhotos(data) {
 
-			var photoHTML = '<ul>';
+			var photoHTML = '<ul style="list-style-type: none;">';
 			$.each( data.items, function (i, photo) {
 				photoHTML += '<li class="awesomePhoto">';
 				photoHTML += '<a href="' + photo.link + '" class="image">';
@@ -22,7 +22,7 @@ $(document).ready(function () {
 			var $container = $('#photos').isotope({
   					itemSelector: '.awesomePhoto',
   					layoutMode: 'fitRows' 
-				});
+				}).fadein(slow);
 
 				$container.imagesLoaded ( function() {
   				$container.isotope('fitRows');
