@@ -8,64 +8,64 @@ h1, h2 {
 }
 
 h1 {
-        text-align: center;
-        font-size: 5em;
-        margin-bottom: 0%;
-        margin-top: 40px;
+    text-align: center;
+    font-size: 5em;
+    margin-bottom: 0%;
+    margin-top: 40px;
 }
 
 h2 {
-        text-align: center;
-        margin: 0px;
+    text-align: center;
+    margin: 0px;
 }
 
 form {
-        width:800px;
-        height:120px;
-        margin: 50px auto 25px auto;
+    width:800px;
+    height:120px;
+    margin: 50px auto 25px auto;
 }
 
 .search {
 
-        padding:8px 15px;
-        background:rgba(50, 50, 50, 0.2);
-        border:2px solid #dbdbdb;
-        margin-top: 15px;
-        margin-bottom: 15px;
-        margin-left: 83px;
+    padding:8px 15px;
+    background:rgba(50, 50, 50, 0.2);
+    border:2px solid #dbdbdb;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 83px;
 }
 
 
 #query {
-        width: 600px;
-        height: 30px;
-        font-size: 25px;
-        border-radius: 10px 10px;
-        display: inline-block;
+    width: 600px;
+    height: 30px;
+    font-size: 25px;
+    border-radius: 10px 10px;
+    display: inline-block;
 }
 
 .button {
-        display: block;
-        margin-left: 352px;
-        height: 28px;
-        width: 96px;
-        text-align: center;
-        border:2px solid #207cca;
-        background-color:#207cca;
-        color:#fafafa;
-        border-radius: 5px 5px;
+    display: block;
+    margin-left: 352px;
+    height: 28px;
+    width: 96px;
+    text-align: center;
+    border:2px solid #207cca;
+    background-color:#207cca;
+    color:#fafafa;
+    border-radius: 5px 5px;
         }
 
 .button:hover {
-        background-color:#fafafa;
-        color:#207cca;
+    background-color:#fafafa;
+    color:#207cca;
 }
 
 #photos {
-        width: 90%;
-        position: center;
-        margin-left: auto;
-        margin-right: auto;
+    width: 90%;
+    position: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 

@@ -9,7 +9,6 @@ $(document).ready(function () {
 			format: "json"
 		};
 		function displayPhotos(data) {
-
 			var photoHTML = '<ul style="list-style-type: none;">';
 			$.each( data.items, function (i, photo) {
 				photoHTML += '<li class="awesomePhoto">';
